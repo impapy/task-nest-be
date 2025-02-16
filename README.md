@@ -45,12 +45,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Run tests
+## ENV File
 
 ```bash
-# unit tests
-$ npm run test
+# mongoDb Link
+ DATABASE_URL=""
 
-# e2e tests
-$ npm run test:e2e
+# JWT SECRET >> using a bcrypt hash structure
+ JWT_SECRET="" 
+
+# PORT
+ PORT=3000
 
